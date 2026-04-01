@@ -10,7 +10,7 @@ interface NetworkSparklinesProps {
   downloadKBs: number;
 }
 
-/** Dual compact sparkline area charts for network upload/download */
+//Dual compact sparkline area charts for network upload/download
 export default function NetworkSparklines({
   uploadData,
   downloadData,

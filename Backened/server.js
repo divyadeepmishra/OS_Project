@@ -7,12 +7,13 @@ const app = express();
 // Set the port. We use 3001 to avoid conflicting with the Next.js frontend which uses 3000.
 const PORT = process.env.PORT || 3001;
 
-// --- MIDDLEWARE ---
+// MIDDLEWARE
 // CORS (Cross-Origin Resource Sharing) allows the React frontend on port 3000 to securely request data from this backend on port 3001.
 app.use(cors());
-// express.json() allows our server to automatically parse incoming request bodies as JSON objects.
+
+// express.json() allows our server to automatically parse incoming request bodies as JSON objects. This is essential for handling POST requests where the client sends data (like when killing a process).
 app.use(express.json());
-// ==== REAL-TIME OS TELEMETRY API Routes ====
+// REAL-TIME OS TELEMETRY API Routes
 // These endpoints power the actual Dashboard. They act as a bridge between the web browser and the machine's Operating System.
 
 // 1. Fetch System Telemetry (CPU, Memory, Network)

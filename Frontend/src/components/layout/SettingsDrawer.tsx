@@ -12,7 +12,7 @@ interface SettingsDrawerProps {
   onUpdateSettings: (partial: Partial<Settings>) => void;
 }
 
-/** Right slide-in settings panel */
+// Right slide-in settings panel
 export default function SettingsDrawer({
   isOpen,
   onClose,

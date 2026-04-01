@@ -17,7 +17,7 @@ interface CPULineChartProps {
   height?: number;
 }
 
-/** Live scrolling CPU line/area chart with gradient fill and threshold line */
+// Live scrolling CPU line/area chart with gradient fill and threshold line
 export default function CPULineChart({ data, threshold = 80, height = 220 }: CPULineChartProps) {
   return (
     <ResponsiveContainer width="100%" height={height}>

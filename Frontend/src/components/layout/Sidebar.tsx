@@ -21,7 +21,7 @@ const NAV_ITEMS: (NavItem & { IconComponent: React.ElementType })[] = [
   { id: 'network', label: 'Network', href: '/network', icon: 'Network', IconComponent: Network },
 ];
 
-/** Collapsible sidebar navigation — transparent background, left-bar accent on active */
+// Collapsible sidebar navigation — transparent background, left-bar accent on active */
 export default function Sidebar() {
   const pathname = usePathname();
 

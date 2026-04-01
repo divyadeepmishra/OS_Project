@@ -30,7 +30,7 @@ export function useAppContext(): AppContextType {
   return ctx;
 }
 
-/** App shell wrapper providing layout + data context to all pages */
+// App shell wrapper providing layout + data context to all pages
 export default function AppShell({ children }: { children: React.ReactNode }) {
   const simulation = useProcessSimulation();
   const {

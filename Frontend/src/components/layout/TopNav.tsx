@@ -18,7 +18,7 @@ interface TopNavProps {
   onAlertClick?: () => void;
 }
 
-/** Top navigation bar — frosted glass, 56px fixed, with logo, tabs, and actions */
+// Top navigation bar — frosted glass, 56px fixed, with logo, tabs, and actions
 export default function TopNav({ alertCount = 0, onSettingsClick, onAlertClick }: TopNavProps) {
   const pathname = usePathname();
 

@@ -21,7 +21,7 @@ const SEVERITY_STYLES: Record<AlertSeverity, { icon: React.ElementType; color: s
   error: { icon: XCircle, color: 'var(--error)', bg: 'var(--error-bg)', border: '#ba1a1a' },
 };
 
-/** Slide-in alert panel from the right */
+// Slide-in alert panel from the right 
 export default function AlertFeed({
   isOpen,
   onClose,

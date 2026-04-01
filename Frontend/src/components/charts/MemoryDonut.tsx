@@ -12,7 +12,7 @@ interface MemoryDonutProps {
 
 const COLORS = ['#a0373b', '#ffc3c2', '#e8e4e4'];
 
-/** Donut chart showing memory breakdown with center percentage label */
+// Donut chart showing memory breakdown with center percentage label
 export default function MemoryDonut({ usedGB, cachedGB, freeGB, size = 200 }: MemoryDonutProps) {
   const total = usedGB + cachedGB + freeGB;
   const percent = total > 0 ? Math.round((usedGB / total) * 100) : 0;
