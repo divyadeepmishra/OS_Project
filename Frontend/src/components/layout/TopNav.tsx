@@ -40,8 +40,8 @@ export default function TopNav({ alertCount = 0, onSettingsClick, onAlertClick }
           style={{ background: 'var(--gradient-primary)', opacity: 0.9 }}
         />
         <span className="font-headline font-extrabold text-xl">
-          <span style={{ color: 'var(--on-surface)' }}>Liquid</span>
-          <span style={{ color: 'var(--primary)' }}> Rose</span>
+          <span style={{ color: 'var(--on-surface)' }}>Neuro</span>
+          <span style={{ color: 'var(--primary)' }}>Pulse</span>
         </span>
       </div>
 
